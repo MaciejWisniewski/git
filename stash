@@ -1,0 +1,7 @@
+#create a stash
+git stash
+
+#reapply previously stashed changes
+git stash pop 
+git stash apply
+
