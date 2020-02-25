@@ -8,9 +8,13 @@ git stash push -m "message"
 git stash list
 
 #apply stash from the list at index @{0}
-git stash apply stash@{0}
+git stash apply "stash@{0}"
 
 #reapply previously stashed changes
 git stash pop 
 git stash apply
+
+#drop stash
+git stash drop
+git stash drop "stash@{0}"
 
