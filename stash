@@ -14,7 +14,8 @@ git stash apply "stash@{0}"
 git stash pop 
 git stash apply
 
-#drop stash
-git stash drop
+#drop top stash - stash@{0}
+git stash drop 
+# drop specific stash - see git stash list
 git stash drop "stash@{0}"
 
