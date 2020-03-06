@@ -1,0 +1,3 @@
+#create new branch based on current
+git checkout base-branch
+git checkout -b new-branch
