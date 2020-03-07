@@ -1,2 +1,0 @@
-# create new branch from base branch
-git checkout -b new-branch base-branch

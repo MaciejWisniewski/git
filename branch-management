@@ -1,3 +1,6 @@
 #create new branch based on current
 git checkout base-branch
 git checkout -b new-branch
+
+#short way to create new branch from base branch
+git checkout -b new-branch base-branch
