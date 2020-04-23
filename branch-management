@@ -4,3 +4,8 @@ git checkout -b new-branch
 
 #short way to create new branch from base branch
 git checkout -b new-branch base-branch
+
+#delete all stale remote-tracking branches under <name> (branches deleted in remote but still seen as remote/origin locally)
+git remote prune origin
+
+
