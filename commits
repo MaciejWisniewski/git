@@ -1,3 +1,6 @@
 #Remove last commit locally and from remote repo (changes stay locally)
 git reset HEAD^ # remove commit locally
 git push origin +HEAD # force-push the new HEAD commit
+
+#Undo multiple commits locally - go back to 0ad5a7a6 commit
+git reset --hard 0ad5a7a6
