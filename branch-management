@@ -8,6 +8,9 @@ git checkout -b new-branch base-branch
 #delete all stale remote-tracking branches under <name> (branches deleted in remote but still seen as remote/origin locally)
 git remote prune origin
 
+#remove local branch
+git branch -d branch_name
+
 #remove specific stale branch
 git branch -d -r origin/branchname
 
