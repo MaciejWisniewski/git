@@ -1,0 +1,5 @@
+#list existing remotes
+git remote -v
+
+#set/change git remote url
+git remote set-url origin http(s)LinkToRemoteRepoProject
