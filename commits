@@ -8,3 +8,6 @@ git reset --hard 0ad5a7a6
 #Go back to the previous state after git reset
 git reflog # to get the identifier of your commit
 git reset --hard <commit-id-retrieved-using-reflog>
+
+#Copy commit from some branch to the current branch
+git cherry-pick b2864db
