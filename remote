@@ -3,3 +3,9 @@ git remote -v
 
 #set/change git remote url
 git remote set-url origin http(s)LinkToRemoteRepoProject
+
+#add new origin
+git remote add origin <origin-url>
+
+#remove existing origin (named origin in the example)
+git remote rm origin
