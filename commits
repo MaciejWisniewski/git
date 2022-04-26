@@ -11,3 +11,7 @@ git reset --hard <commit-id-retrieved-using-reflog>
 
 #Copy commit from some branch to the current branch
 git cherry-pick b2864db
+
+#Get the latest from origin without trying to merge (overriding local)
+git fetch origin master
+git reset --hard FETCH_HEAD
