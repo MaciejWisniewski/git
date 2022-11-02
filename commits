@@ -15,3 +15,6 @@ git cherry-pick b2864db
 #Get the latest from origin without trying to merge (overriding local)
 git fetch origin master
 git reset --hard FETCH_HEAD
+
+#Revert a commit (create a commit opposite to the one you want to revert)
+git revert 2b5ed9d
